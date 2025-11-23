@@ -3,34 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <h1>Learn-HTML</h1>
+    <title>Learn-HTML</title>
 </head>
+
 <body>
-<img src="me.jpg" alt="My photo" width="300">
-   
-       <audio src="hello_everyone_i_am_an_and_this_is_my_family_e719383d-3966-4882-80fb-d616b7bda43a.mp3" controls width="100"></audio>
+    <h1>Learn-HTML</h1>
+
+    <header>   
+     <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#family">Family</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#links">Links</a></li>
+        </ul>
+    </nav>
+        This is the web about my family
+    </header>
+    <main>
+        <h2 id="family">My Family</h2>
+        <p>This is my family description...</p>
+        <h2 id="hobbies">Hobbies</h2>
+        <p> We often play sports and cook together...</p>
+    </main>
+
+    <div class="image-section">
+        <img src="me.jpg" alt="My photo" width="300">
+    </div>
+
+    <div class="audio-section">
+        <audio src="hello_everyone_i_am_an_and_this_is_my_family_e719383d-3966-4882-80fb-d616b7bda43a.mp3" controls></audio>
+        <p>Hello ,<br>This is my family.</p>
+    </div>
+
     <br>Hello ,<br>
-   This is my family .
-    <p>My name is<b> An</b> and this is my brother
-        <strong> Bee</strong> and this is my sister<em> Lisa</em>.</p>
+
+    <div class="family-introduction" id="family">
+        This is my family.
+        <p>My name is <b>An</b> and this is my brother
+        <strong>Bee</strong> and this is my sister <em>Lisa</em>.</p>
+    </div>
+
+    <div class="family-members">
         <h2>Family members</h2>
         <ol>
             <li>My dad</li>
             <li>My mom</li>
-            <li>My younger brother(Bee)</li>
-            <li>My younger sister(Lisa)</li>
+            <li>My younger brother (Bee)</li>
+            <li>My younger sister (Lisa)</li>
             <li>Me</li>
         </ol>
-   <h3>Family hobbies</h3>
+    </div>
+
+    <div class="family-hobbies" id="hobbies">
+        <h3>Family hobbies</h3>
         <ul>
-            <li>Dad : Watching TV</li>
-            <li>Mom : Reading books</li>
+            <li>Dad : Watching TV, studying</li>
+            <li>Mom : Reading books, cooking</li>
             <li>Bee : Playing chess</li>
             <li>Lisa : Playing toys</li>
             <li>Me : Playing badminton</li>
         </ul>
+    </div>
+
+    <div class="web-link" id="links">
         This is my web<br>
-         <a href="https://riokhaian2025-jpg.github.io/porfolio/"> Link : https://riokhaian2025-jpg.github.io/porfolio/</a><br>
-       <video src="W&W - OIIA OIIA (Spinning Cat).mp4" width="300" controls></video>
-    </body>
+        <a href="https://riokhaian2025-jpg.github.io/porfolio/">Link : My Portfolio Website</a><br>
+        <video src="W&W - OIIA OIIA (Spinning Cat).mp4" width="300" controls></video>
+    </div>
+
+</body>
 </html>
